@@ -1,6 +1,6 @@
 :root {
-  --primario: #9c27b0; 
-  --primarioOscuro: #89119D;
+  --primario: #4d32d7; 
+  --primarioOscuro: #0909a9;
   --secundario: #FFCE00;
   --secundarioOscuro: rgb(233, 187, 2);
   --blanco: #FFF;
@@ -135,11 +135,11 @@ h3 {
   grid-column: 1 / 3;
 }
 .grafico--camisas {
-  background-image: url(../img/grafico1.jpg);
+  background-image: url(../img/logoTNF.jpg);
   grid-row: 2 / 3;
 }
 .grafico--node {
-  background-image: url(../img/grafico2.jpg);
+  background-image: url(../img/logoTNF2.jpg);
   grid-row: 8 / 9;
 }
 @media (min-width: 768px) {
