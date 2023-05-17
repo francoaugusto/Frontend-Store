@@ -199,6 +199,11 @@ h3 {
   }
 }
 
+.camisa__nombre {
+  color: var(--secundario);
+  font-size: 3rem;
+}
+
 .formulario {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -216,7 +221,9 @@ h3 {
 }
 .formmulario__option {
   color: var(--negro);
+  text-align: center;
 }
+
 .formulario__submit {
   background-color: var(--secundario);
   border: none;
@@ -225,6 +232,8 @@ h3 {
   padding: 2rem;
   transition: background-color .2s ease;
   grid-column: 1 / 3;
+  text-align: center;
+  width: 100%;
 }
 .formulario__submit:hover {
   cursor: pointer;
